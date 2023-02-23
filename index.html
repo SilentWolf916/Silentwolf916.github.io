@@ -1,0 +1,309 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Первый макет</title>
+    </head>
+    <body>
+       <header>
+           <h1><u>Функции html:</u></h1>
+           <nav>
+               <h2>Навигация:</h2>
+               <ol>
+                   <li><a href="#Список1">Списки:</a>
+                   <ul>
+                       <li><a href="#Список1.1">Неупорядоченный список</a></li>
+                       <li><a href="#Список1.2">Упорядоченный список</a></li>
+                       <li><a href="#Список1.3">Упорядоченный список с неупорядоченным внутри</a></li>
+                       <li><a href="#Список1.4">Список определений</a></li>
+                   </ul></li>
+                   <li><a href="#Таблица1">Таблицы:</a>
+                   <ul>
+                       <li><a href="#Таблица1.1">Простая таблица</a></li>
+                       <li><a href="#Таблица1.2">Сложная таблица</a></li>
+                       <li><a href="#Таблица1.3">Таблица с группировкой</a></li>
+                       <li><a href="#Таблица1.4">Таблица в элементе figure</a></li>
+                   </ul></li>
+                   <li><a href="#Форма1">Формы:</a>
+                   <ul>
+                       <li><a href="#Форма1.1">Однострочные формы</a></li>
+                       <li><a href="#Форма1.2">Текстовое поле</a></li>
+                       <li><a href="#Форма1.3">Форма выбора цвета</a></li>
+                       <li><a href="#Форма1.4">Форма выбора числа</a></li>
+                       <li><a href="#Форма1.5">Форма прикрепления файлов</a></li>
+                       <li><a href="#Форма1.6">Меню</a></li>
+                       <li><a href="#Форма1.7">Форма строки выбора</a></li>
+                       <li><a href="#Форма1.8">Форма выбора вариантов</a></li>
+                       <li><a href="#Форма1.9">Форма даты и времени</a></li>
+                   </ul></li>
+                   <li><a href="#Изображение1">Адаптивные изображения:</a>
+                   <ul>
+                       <li><a href="#Изображение1.1">Стандартное изображение</a></li>
+                       <li><a href="#Изображение1.2">Адаптируемое по разрешению экрана изображение</a></li>
+                       <li><a href="#Изображение1.3">Адаптируемое по ширине экрана изображение</a></li>
+                       <li><a href="#Изображение1.4">Изображения с разной степенью детализации</a></li>
+                   </ul></li>
+                   <li><a href="#Мультимедиа1">Мультимедиа:</a>
+                   <ul>
+                       <li><a href="#Мультимедиа1.1">Окно в окне</a></li>
+                       <li><a href="#Мультимедиа1.2">Видео</a></li>
+                       <li><a href="#Мультимедиа1.3">Аудио</a></li>
+                   </ul></li>
+                   <li><a href="#Данные_автора">Данные об авторе</a></li>
+               </ol>
+           </nav>
+       </header>
+       <main>
+          <h3 id="Список1"><u>Списки:</u></h3>
+          <h4 id="Список1.1">Неупорядоченный список:</h4>
+          <ul>
+              <li>Пункт 1</li>
+              <li>Пункт 2</li>
+              <li>Пункт 3</li>
+          </ul>
+          <hr>
+          <h4 id="Список1.2">Упорядоченный список:</h4>
+          <ol>
+              <li>Пункт 1</li>
+              <li>Пункт 2</li>
+              <li>Пункт 3</li>
+          </ol>
+          <hr>
+          <h4 id="Список1.3">Упорядоченный список с неупорядоченным внутри:</h4>
+          <ol>
+              <li>Пункт 1</li>
+              <li>Пункт 2</li>
+              <li>Пункт 3
+                  <ul>
+                      <li>Подпункт 1</li>
+                      <li>Подпункт 2</li>
+                      <li>Подпункт 3</li>
+                  </ul>
+              </li>
+          </ol>
+          <hr>
+          <h4 id="Список1.4">Список определений:</h4>
+          <dl>
+              <dt>Термин 1
+                  <dd>Определение 1</dd>
+                  <dd>Определение 2</dd>
+              </dt>
+              <dt>Термин 2
+                  <dd>Определение 3</dd>
+                  <dd>Определение 4</dd>
+              </dt>
+          </dl>
+          <br>
+          <h3 id="Таблица1"><u>Таблицы:</u></h3>
+          <h4 id="Таблица1.1">Простая таблица:</h4>
+          <table>
+              <thead>
+                 <caption>Таблица 1:</caption>
+                 <tr><th scope="col">Заголовок 1</th><th scope="col">Заголовок 2</th><th scope="col">Заголовок 3</th></tr>
+              </thead>
+              <tbody>
+                  <tr><td>Пункт 1</td><td>Пункт 2</td><td>Пункт 3</td></tr>
+                  <tr><td>Пункт 4</td><td>Пункт 5</td><td>Пункт 6</td></tr>
+              </tbody>
+          </table>
+          <hr>
+          <h4 id="Таблица1.2">Сложная таблица:</h4>
+          <table>
+              <thead>
+                  <caption>Таблица 2</caption>
+                  <tr><th scope="col">Заголовок 1</th><th colspan="2" id="Заголовок2и3">Заголовок 2 и 3</th></tr>
+              </thead>
+              <tbody>
+                  <tr><td rowspan="2">Пункт 1 и 4</td><td header="Заголовок2и3">Пункт 2</td><td header="Заголовок2и3">Пункт 3</td></tr>
+                  <tr><td header="Заголовок2и3">Пункт 5</td><td header="Заголовок2и3">Пункт 6</td></tr>
+              </tbody>
+          </table>
+          <hr>
+          <h4 id="Таблица1.3">Таблица с группировкой:</h4>
+          <table>
+              <thead>
+                  <caption>Таблица 3</caption>
+                  <colgroup></colgroup><colgroup span="2"></colgroup><colgroup>
+                      <col id="Столбец4"></col>
+                      <col id="Столбец5"></col>
+                  </colgroup>
+                  <tr><th scope="col">Заголовок 1</th><th scope="col">Заголовок 2</th><th scope="col">Заголовок 3</th><th scope="col">Заголовок 4</th><th scope="col">Заголовок 5</th></tr>
+              </thead>
+              <tbody>
+                  <tr><td>Пункт 1</td><td>Пункт 2</td><td>Пункт 3</td><td>Пункт 4</td><td>Пункт 5</td></tr>
+                  <tr><td>Пункт 6</td><td>Пункт 7</td><td>Пункт 8</td><td>Пункт 9</td><td>Пункт 10</td></tr>
+              </tbody>
+          </table>
+          <hr>
+          <h4 id="Таблица1.4">Таблица в элементе figure:</h4>
+          <figure>
+              <table>
+                 <thead>
+                     <caption>Таблица 4</caption>
+                     <tr><th scope="row">Заголовок 1</th><td>Пункт 1</td><td>Пункт 2</td></tr>
+                 </thead>
+                 <tbody>
+                     <tr><th scope="row">Заголовок 2</th><td>Пункт 3</td><td>Пункт 4</td></tr>
+                     <tr><th scope="row">Заголовок 3</th><td>Пункт 5</td><td>Пункт 6</td></tr>
+                 </tbody>
+              </table>
+              <figcaption>Описание таблицы</figcaption>
+          </figure>
+          <br>
+          <h3 id="Форма1"><u>Формы:</u></h3>
+          <h4 id="Форма1.1">Однострочные формы:</h4>
+          <form action="form1.php" method="POST" name="Однострочная_форма">
+             <ol>
+                 <li>Имя:<label><input type="text" name="Имя" minlength="3" maxlength="15" size="15" placeholder="Введите имя"></label></li>
+                 <li>Фамилия:<label><input type="text" name="Фамилия" placeholder="Введите фамилию" minlength="3" maxlength="15" size="15"></label></li>
+                 <li>Телефон:<label><input type="tel" name="Телефон" placeholder="Введите телефон" minlength="11" maxlength="15" size="15"></label></li>
+                 <li>Электронная почта:<label><input type="email" name="Элпочта" placeholder="Введите электронную почту" minlength="3" maxlength="30" size="30"></label></li>
+                 <li>Пароль:<label><input type="password" name="Пароль" minlength="8" maxlength="25" size="25" placeholder="Введите пароль"></label></li>
+             </ol>
+             <div><label><input type="submit" value="Отправить данные"></label></div>
+             <div><label><input type="reset" value="Стереть данные"></label></div>
+          </form>
+          <hr>
+          <h4 id="Форма1.2">Текстовое поле:</h4>
+          <form action="area.php" method="POST" name="Полетекста">
+              <textarea minlength="3" maxlength="150" size="150" cols="30" rows="5"></textarea>
+              <div><label><input type="submit" value="Отправить"></label></div>
+              <div><label><input type="reset" value="Стереть"></label></div>
+          </form>
+          <hr>
+          <h4 id="Форма1.3">Форма выбора цвета:</h4>
+          <form action="color.php" method="GET" name="Выбор_цвета">
+              <div>Выберите цвет:<label><input type="color" name="Цвет"></label></div>
+          </form>
+          <hr>
+          <h4 id="Форма1.4">Форма выбора числа:</h4>
+          <form action="number.php" method="GET" name="Выбор_числа">
+             <div>Выберите число:<label><input type="number" min="0" max="100" step="2" name="Число"></label></div>
+             <br>
+             <div>0<label><input type="range" min="0" max="100"
+             step="2" name="Ползунок"></label>100</div>
+             <br>
+             <div><label><input type="reset" value="Стереть"></label></div>
+          </form>
+          <hr>
+          <h4 id="Форма1.5">Форма прикрепления файлов:</h4>
+          <form action="file.php" method="POST" name="Выбор_файла" enctype="multipart/form-data">
+            <div><label><input type="file" multiple name="Файл"></label></div>
+            <br>
+            <div><label><input type="submit" value="Отправить файлы"></label><label><input type="reset" value="Удалить файлы"></label></div>
+          </form>
+          <hr>
+          <h4 id="Форма1.6">Меню:</h4>
+          <h5>Меню без группирования:</h5>
+          <form action="menu1.php" method="GET" name="Меню1">
+              <div>Выберите один или несколько вариантов:</div>
+              <select multiple size="4">
+                 <option selected>Вариант 1</option>
+                 <option selected>Вариант 2</option>
+                 <option>Вариант 3</option>
+                 <option>Вариант 4</option>
+              </select>
+          </form>
+          <br>
+          <h5>Меню с группированием:</h5>
+          <form action="menu2.php" method="GET" name="Меню2">
+            <div>Выберите один или несколько вариантов:</div>
+            <select size="6" multiple>
+                <optgroup label="Группа1">
+                    <option selected>Вариант 1</option>
+                    <option>Вариант 2</option>
+                </optgroup>
+                <optgroup label="Группа2">
+                    <option selected>Вариант 1</option>
+                    <option>Вариант 2</option>
+                </optgroup>
+            </select>
+          </form>
+          <hr>
+          <h4 id="Форма1.7">Форма строки выбора:</h4>
+          <form action="line.php" method="GET" name="Строка">
+              <label><input type="text" minlength="3" maxlength="35" size="35" placeholder="Выберите вариант или введите свой" list="Панельвыбора"></label>
+              <datalist id="Панельвыбора">
+                  <option value="Вариант 1">
+                  <option value="Вариант 2">
+                  <option value="Вариант 3">
+              </datalist>
+              <br>
+              <div><label><input type="reset" value="Стереть"></label></div>
+          </form>
+          <hr>
+          <h4 id="Форма1.8">Форма выбора вариантов:</h4>
+          <form action="checkbox.php" method="GET" name="Выбор">
+              <div>Один вариант выбора:</div>
+              <ul>
+                 <li><label><input type="radio" name="Выбор1" checked></label>Вариант 1</li>
+                 <li><label><input type="radio" name="Выбор1"></label>Вариант 2</li>
+                 <li><label><input type="radio" name="Выбор1"></label>Вариант 3</li>
+                 <li><label><input type="radio" name="Выбор1"></label>Вариант 4</li>
+              </ul>
+              <br>
+              <div>Один или несколько вариантов выбора:</div>
+              <ul>
+                  <li><label><input type="checkbox" name="Выбор2" checked></label>Вариант 1</li>
+                  <li><label><input type="checkbox" name="Выбор2" checked></label>Вариант 2</li>
+                  <li><label><input type="checkbox" name="Выбор2"></label>Вариант 3</li>
+                  <li><label><input type="checkbox" name="Выбор2"></label>Вариант 4</li>
+              </ul>
+          </form>
+          <hr>
+          <h4 id="Форма1.9">Форма даты и времени:</h4>
+          <form>
+              <div>Выберите дату и время:<label><input type="datetime-local" name="Дата_Время" value="2023-02-22T11:20"></label></div>
+              <br>
+              <div>Выберите месяц:<label><input type="month" name="Месяц" value="2023-02"></label></div>
+              <br>
+              <div>Выберите неделю:<label><input type="week" name="Неделя" value="2023-W07"></label></div>
+              <br>
+              <div><label><input type="reset" value="Стереть"></label></div>
+          </form>
+          <br>
+          <h3 id="Изображение1"><u>Адаптивные изображения:</u></h3>
+          <h4 id="Изображение1.1">Стандартное изображение:</h4>
+          <img src="Images/Photo1.jpg" alt="Стандартное фото" width="380px" height="150px">
+          <hr>
+          <h4 id="Изображение1.2">Адаптируемое по разрешению экрана изображение:</h4>
+          <img src="Images/Photo_1to1.jpg" alt="Адаптируемое по разрешению изображение" width="390px" height="150px" srcset="Images/Photo_2to1.jpg 2x, Images/Photo_3to1.jpg 3x">
+          <hr>
+          <h4 id="Изображение1.3">Адаптируемое по ширине экрана изображение:</h4>
+          <img src="Images/Photo_more1400.jpg" alt="Адаптируемое по ширине изображение" width="390px" height="150px" srcset="Images/Photo_more1100_less1400.jpg 1400w, Images/Photo_less1100.jpg 1100w">
+          <hr>
+          <h4 id="Изображение1.4">Изображения с разной степенью детализации:</h4>
+          <picture>
+              <source media="(max-width: 1100px)" srcset="Images/Photo_frag.jpg">
+              <img src="Images/Photo1.jpg" alt="Полное изображение или фрагмент" width="390px" height="150px">
+          </picture>
+          <br>
+          <h3 id="Мультимедиа1"><u>Мультимедиа:</u></h3>
+          <h4 id="Мультимедиа1.1">Окно в окне:</h4>
+          <iframe width="390px" height="150px" src="Html/Example.html"></iframe>
+          <div>Макет простой страницы html.</div>
+          <hr>
+          <h4 id="Мультимедиа1.2">Видео:</h4>
+          <video src="Video/Video1.mp4" width="390px" height="150px" loop controls poster="Images/Poster.jpg"></video>
+          <div>Немного reface на странице</div>
+          <hr>
+          <h4 id="Мультимедиа1.3">Аудио:</h4>
+          <audio src="Sounds/Music1.MP3" loop controls></audio>
+          <div>И немного музыкальной ностальгии</div>
+       </main>
+       <footer>
+          <h3 id="Данные_автора"><u>Данные об авторе:</u></h3>
+          <address>
+             <ol>
+                 <li>Электронная почта: <a href="mailto:name@gmail.com">name@gmail.com</a></li>
+                 <li>Телефон: <a href="tel:+7-888-888-8888">+7-888-888-8888</a></li>
+                 <li>Ссылка на коллегу: <a href="http://r90625ip.beget.tech/">Иван</a></li>
+             </ol>
+          </address>
+       </footer>
+    </body>
+</html>
+<!-- запомнить атрибут placeholder для текстовых форм, атрибут enctype="multipart/form-data" для прикрепления файлов, атрибут label для элемента optgroup в меню-->
+<!-- атрибут list для элемента input type="text", если он используется для связи с элементом datalist, элемент option и его атрибут value внутри элемента datalist-->
+<!-- атрибут srcset для элемента img где указывается x дескриптор для адаптированных по разрешению экрана изображений, w дескриптор для адаптируемых по ширине экрана изображений-->
+<!-- Для изображений с разной степенью детализации используется элемент picture, внутрь которого помещаются элементы source с атрибутами media="(min-width: px)" и srcset -->
